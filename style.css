@@ -1,0 +1,256 @@
+h2 {
+
+    font-weight: bold;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-size: 2em;
+
+}
+
+.contener {
+
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 71%;
+    margin: 0 auto;
+
+}
+
+
+.contener-gauche{
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50%;
+    background-image: url(images/nicole.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+ 
+
+
+}
+
+.contener-gauche > div > .alignetitle{
+
+    display: flex;
+    flex-direction: line;
+    
+    
+    }
+
+    .contener-gauche > div > .alignetitle{
+
+        margin-top: 5em;
+
+    }
+
+
+.contener-gauche > div > .alignetitle> img {
+
+width: 50px;
+height: 50px;
+background-color: black;
+margin-left: 3em;
+
+
+}
+
+
+.contener-gauche>.block-centre {
+
+    display: flex;
+    flex-direction: line;
+    flex-wrap: wrap;
+  
+    width:88%;
+    height: 20%;
+    background-color: rgba(155, 152, 152, 0.4);;
+    margin: 0 auto;
+   
+
+  
+
+}
+
+.contener-gauche>.block-centre>h3 {
+
+    margin-top: 2em;
+    margin-left: 5em;
+    text-transform: capitalize;
+
+
+}
+
+
+.contener-gauche>.block-centre>h3>.title {
+
+color: aliceblue;
+font-weight: bold;
+font-size: 2em;
+margin-left: 5em;
+
+
+
+}
+
+.contener-gauche>.block-centre>h3>.span {
+
+font-style: italic;
+color: aliceblue;
+
+
+}
+
+.contener-gauche>.block-centre>p {
+
+    color: aliceblue;
+    margin-left: 5em;
+    text-align: right;
+
+
+}
+
+
+.contener-gauche>ul>li{
+
+    display: flex;
+    justify-content: flex-end;
+  
+}
+
+
+.contener-gauche>ul>li>a{
+
+    margin-left: 2em;
+    color: white;
+    margin-bottom:2em;
+    text-transform: capitalize;
+
+
+}
+
+
+.contener-droit{
+
+    width: 50%;
+    
+}
+.contener-droit>h3{
+    background-color:#f9f9f9 ;
+    width:100%;
+    font-size: 2em;
+    padding: 1rem;
+    color: black;
+    font-weight: bold;
+
+
+}
+
+.publication {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+
+.publication>.block{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 3em;
+    margin-right: 3em;
+    
+   
+}
+
+.publication>ul>li{
+ 
+    text-align: left;
+    max-width: 50%;
+    align-content: space-between;
+
+   
+}
+    
+
+.publication>ul>li>div img{
+
+width: 30px;
+height: 30px;
+
+}
+
+
+.publication>ul>li>.tag{
+
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: blue;
+    color:white;
+    text-align: left;
+    padding: 1em;
+    font-size: 0.5em;
+    border-radius: 25px;
+
+
+}
+
+h4 {
+
+    font-weight: bold;
+    font-size: 1.7em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+
+
+}
+
+.publication>ul>li>div .pseudo{
+
+    font-weight: bold;
+    font-size: 0.8em;
+
+}
+
+.publication>ul>li>div .date{
+
+    font-weight: 100;
+    font-size: 0.8em;
+    margin-left: 1em;
+    color:grey;
+
+}
+
+.publication>ul>li>div p{
+
+margin-top: 1em;
+font-weight: 100;
+margin-bottom:3em;
+
+
+}
+
+.publication>ul>li>div .reading{
+
+ 
+    color:blue;
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+
+.contener-droit >h3 {
+
+    margin-bottom: 2em;
+    text-transform: capitalize;
+    margin-left: 1em;
+}
